@@ -1,0 +1,57 @@
+/* Login.css */
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  width: 18em; /* Approximately equivalent to 300px */
+  padding: 1.25em; /* Approximately equivalent to 20px */
+  border: 0.0625em solid #ccc; /* Approximately equivalent to 1px */
+  border-radius: 0.3125em; /* Approximately equivalent to 5px */
+  box-shadow: 0 0.125em 0.25em rgba(0, 0, 0, 0.1); /* Approximately equivalent */
+}
+
+.card h2 {
+  margin-top: 0;
+  margin-bottom: 1.25em; /* Approximately equivalent to 20px */
+  text-align: center;
+}
+
+/* Style for input fields */
+.card input {
+  width: 95%;
+  padding: 0.625em; /* Approximately equivalent to 10px */
+  margin-bottom: 0.9375em; /* Approximately equivalent to 15px */
+
+  border: 0.0625em solid #ccc; /* Approximately equivalent to 1px */
+  border-radius: 0.3125em; /* Approximately equivalent to 5px */
+}
+
+.card input:focus {
+  outline: none;
+  border-color: #007bff; /* Change color on focus */
+}
+
+/* Style for submit button */
+.card button {
+  width: 100%;
+  padding: 0.625em; /* Approximately equivalent to 10px */
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 0.3125em; /* Approximately equivalent to 5px */
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #0056b3; /* Change color on hover */
+}
+
+.form-message {
+  margin-top: 1em;
+  text-align: center;
+}
